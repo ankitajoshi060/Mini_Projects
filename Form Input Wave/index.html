@@ -4,17 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FORM INPUT WAVE</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="container">
-        <h1>Please Login</h1>
-        <label for="email">Email</label><br>
-        <input type="text" id="email"><br>
-        <label for="password">Password</label><br>
-        <input type="password" name="password" id="password"><br>
-        <input type="submit" value="Login"><br>
-        <span>Don't have an account?</span><a href="#">Register</a>
+      <h1>Please Login</h1>
+      <form>
+        <div class="form-control">
+          <input type="text" name="email" id="email" required />
+          <label for="email">Email</label>
+        </div>
+        <div class="form-control">
+          <input type="password" name="password" id="password" required/>
+          <label for="password">password</label>
+        </div>
+        <button class="btn">Login</button>
+        <p class="text">Don't have an account?<a href="#">Register</a></p>
+      </form>
     </div>
     <script src="./script.js"></script>
   </body>

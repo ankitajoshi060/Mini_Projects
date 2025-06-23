@@ -69,6 +69,7 @@ h1 {
   position: absolute;
   width: 50%;
   height: 100%;
+  overflow: hidden;
 }
 
 .split.left {
@@ -110,7 +111,7 @@ h1 {
 
 .hover-left .left{
     width: var(--hover-width);
-}
+  }
 
 .hover-left .right{
     width: var(--other-width);

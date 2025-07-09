@@ -8,6 +8,7 @@ body{
     background-color: #2b88f0;
     font-family: 'mulish', sans-serif;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -17,15 +18,16 @@ body{
 
 .container{
     color: white;
-    text-align: center;
-    min-width: 500px;
+    /* text-align: center; */
+    width: 500px;
     /* border: 1px solid black; */
 }
 h3{
   color: #fff;
   margin: 10px 0 30px;
+  text-align: center;
 }
-#choices{
+#textarea{
     width: 100%;
     height: 100px;
     padding: 10px;
@@ -35,15 +37,23 @@ h3{
     font-family: inherit;
     margin-bottom: 20px;
 }
-#choices:focus{
+#textarea:focus{
     outline: none;
 }
-
+#tags{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
 .tag{
-    background-color: pink;
+    background-color: orange;
     color: #fff;
     border: 50px;
+    border-radius: 50px;
     padding: 10px 20px;
     margin: 10px;
     font-size: 14px;
+    font-weight: bold;
 }

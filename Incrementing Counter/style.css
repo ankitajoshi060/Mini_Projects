@@ -17,16 +17,18 @@ body {
 }
 
 .counter-container {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 30px 50px;
+  margin: 30px 30px;
   text-align: center;
 }
 
+.counter-container i{
+  font-size: 40px;
+}
 .counter{
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 10px;
 }
 
